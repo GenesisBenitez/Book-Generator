@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: rgb(175, 221, 221);
+    font-family: cursive;
+    
+}
+
+nav{
+    background-color: burlywood;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+}
+
+#navLi{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+#getBooks{
+    border: black 1px solid;
+    background-color: rgb(255, 220, 220);
+    color: black;
+    height: 40px;
+    width: 70px;
+}
+
+#getBooks:hover{
+    border: black 1px solid;
+    background-color: black;
+    color: rgb(255, 220, 220);
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+}
+
+#bookLi{
+    border-bottom: rgb(255, 220, 220) 1px solid;
+}
+
+img{
+    height: 200px;
+    width: 150px;
+    margin-left: 100px;
+}
